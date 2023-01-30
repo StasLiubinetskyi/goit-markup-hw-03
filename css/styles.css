@@ -290,6 +290,10 @@ img {
 
 /* Portfolio */
 
+.portfolio-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
+
 .section.portfolio {
     padding-top: 96px;
 }
