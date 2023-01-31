@@ -29,8 +29,10 @@ ul {
     padding-left: 0;
 }
 
-.img {
+img {
     flex-basis: calc((100% - 48px) / 3);
+    max-width: 100%;
+    height: auto;
 }
 
 .list {
@@ -286,7 +288,8 @@ ul {
 
 
 
-/* Portfolio styles */
+/* portfolio styles */
+
 .section.portfolio {
     padding-top: 96px;
 }
@@ -318,16 +321,19 @@ ul {
 }
 
 
-.portfolio-list{
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    
+
 }
 
+.portfolio-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
 
-.wrapper{
+.wrapper {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
