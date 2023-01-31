@@ -289,11 +289,6 @@ img {
 
 
 /* Portfolio */
-
-.portfolio-list-item {
-    flex-basis: calc((100% - 48px) / 3);
-}
-
 .section.portfolio {
     padding-top: 96px;
 }
@@ -325,14 +320,18 @@ img {
 }
 
 
-.portfolio-list {
+.portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
     row-gap: 48px;
+    column-gap: 24px;
+    
+}
+.portfolio-list-item{
+    flex-basis: calc((100% - 48px) / 3);
 }
 
-.wrapper {
+.wrapper{
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
