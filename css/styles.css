@@ -30,7 +30,6 @@ ul {
 }
 
 img {
-    flex-basis: calc((100% - 48px) / 3);
     max-width: 100%;
     height: auto;
 }
@@ -332,6 +331,7 @@ img {
 .portfolio-list-item {
     flex-basis: calc((100% - 48px) / 3);
 }
+
 
 .wrapper {
     padding-top: 32px;
